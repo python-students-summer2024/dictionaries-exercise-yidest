@@ -239,7 +239,7 @@ Price: $5.50
         call_counter = {
             "input": 0,
         }
-        # mock the input functionfoo
+        # mock the input function
         Tests.mock_input(mock_data, call_counter, monkeypatch)
         cookies = Tests.get_mock_cookies()
 
